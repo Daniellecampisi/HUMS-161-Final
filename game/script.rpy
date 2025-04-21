@@ -37,7 +37,7 @@ label start:
 
     narr "Welcome to the Cultural Trafficking Digital Collection."
 
-    narr "I hope you enjoy the first artifact"
+    narr "I hope you enjoy the first artifact."
 
     jump Art1
 

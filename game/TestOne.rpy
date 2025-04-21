@@ -19,6 +19,4 @@ label Art1:
     narr "Shipped across continents, I found myself confined within the then South Kensington Museum, with the approval of the British Treasury."
 
     scene bg 2 with fade
-    narr "Here I remain" 
-    narr "A silent witness to the passing of years, watching as my people’s voices rise in hope and sorrow—calling for my return"
-    narr "While those who hold me show little urgency to let me go."
+    narr "Here I remain, a silent witness to the passing of years, watching as my people’s voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
