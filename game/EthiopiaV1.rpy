@@ -82,12 +82,12 @@ label badDiplomacyV1:
 label repatriationTry:
     define repatChance = 0
     $repatChance = random.randint(0, 5)
-    if(repatChance > 3):
+    if(repatChance > 2):
         narr "Negotiation with the English failed."
         jump outcome4V1
-    else
+    else:
         narr "The British agreed to return the crown and other artifacts!"
-        jump goodDiplomacyV1;
+        jump goodDiplomacyV1
     return
 
 label goodDiplomacyV1:
@@ -113,8 +113,8 @@ label goodDiplomacyV1:
 
 label outcome1V1:
     scene bg 2 with fade
-    define qualityRandomizer = 0;
-    $qualityRandomizer = random.randint(0,1);
+    define qualityRandomizer = 0
+    $qualityRandomizer = random.randint(0,1)
     if(qualityRandomizer == 1):
         crown "I remain in my homeland, with my people. Despite our closeness my time is fading as I slowly decay from poor care."
     else:
@@ -129,6 +129,6 @@ label outcome3V1:
     crown "I was transfered to a location, watching my people negociate my stewardship and protect my longjevity."
     return
 label outcome4V1:
-        scene bg 2 with fade
+    scene bg 2 with fade
     crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
-    return;
+    return
