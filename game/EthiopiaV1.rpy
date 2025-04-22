@@ -72,9 +72,21 @@ label badDiplomacyV1:
     scene bg 7 with fade
     crown "Shipped across continents, I found myself confined within the then South Kensington Museum, with the approval of the British Treasury."
     #TODO: 
-    narr "x"
+    narr "The crown is now outside of Ethiopian control. Should repatriation efforts be made?"
+    menu:
+        "Take efforts to negociate repatriation":
+            jump repatriationTry 
+        "Leave the crown in the English's stewardship":
+            jump outcome4V1
     return
 label repatriationTry:
+    define repatChance = 0
+    $repatChance = random.randint(0, 5)
+    if(repatChance > 3):
+        narr "The"
+    else
+        narr ""
+    return
 
 label goodDiplomacyV1:
     # narr "The British work diplomatically with Ethiopia."
