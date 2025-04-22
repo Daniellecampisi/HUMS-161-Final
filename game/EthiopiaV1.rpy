@@ -83,9 +83,11 @@ label repatriationTry:
     define repatChance = 0
     $repatChance = random.randint(0, 5)
     if(repatChance > 3):
-        narr "The"
+        narr "Negotiation with the English failed."
+        jump outcome4V1
     else
-        narr ""
+        narr "The British agreed to return the crown and other artifacts!"
+        jump goodDiplomacyV1;
     return
 
 label goodDiplomacyV1:
