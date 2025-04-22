@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 23: end of line expected.
-    show Art1.jpg
-             ^
+File "game/EthiopiaV1.rpy", line 118: Indentation mismatch.
 
-Ren'Py Version: Ren'Py 8.2.3.24061702
-Sun Apr 20 22:12:32 2025
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Tue Apr 22 10:47:58 2025

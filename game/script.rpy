@@ -4,7 +4,7 @@
 # name of the character.
 
 define narr = Character(" ")
-
+define crown = Character("The Maqdala Crown")
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
@@ -39,6 +39,6 @@ label start:
 
     narr "I hope you enjoy the first artifact."
 
-    jump Art1
+    jump E_V1_Intro
 
     return

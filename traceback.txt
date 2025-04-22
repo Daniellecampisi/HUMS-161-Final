@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/EthiopiaV1.rpy", line 50, in script
+    python:
+  File "game/EthiopiaV1.rpy", line 51, in <module>
+    britishDiplomacy  = random(0,5)
+NameError: name 'random' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/EthiopiaV1.rpy", line 50, in script
+    python:
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Applications/renpy-8.3.7-sdk/renpy/python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/EthiopiaV1.rpy", line 51, in <module>
+    britishDiplomacy  = random(0,5)
+NameError: name 'random' is not defined
+
+macOS-15.4.1-arm64-arm-64bit arm64
+Ren'Py 8.3.7.25031702
+ArchivesFinal 1.0
+Tue Apr 22 10:25:09 2025
