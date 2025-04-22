@@ -782,3 +782,49 @@ Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 11518.17s
+Loading error handling took 0.02s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/EthiopiaV1.rpy", line 118: Indentation mismatch.
+DPI scale factor: 1.000000
+Interface start took 0.75s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 89.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 12914.90s
+Loading error handling took 0.02s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/EthiopiaV1.rpy", line 119: Indentation mismatch.
+DPI scale factor: 1.000000
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 89.4'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Maximum texture size: 4096x4096

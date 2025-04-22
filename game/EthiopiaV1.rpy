@@ -71,7 +71,8 @@ label badDiplomacyV1:
     crown "I was seized alongside my companions, auctioned off as spoils to foreign hands."
     scene bg 7 with fade
     crown "Shipped across continents, I found myself confined within the then South Kensington Museum, with the approval of the British Treasury."
-    #TODO: LAST PART HERE
+    #TODO: 
+    narr "x"
     return
 label repatriationTry:
 
