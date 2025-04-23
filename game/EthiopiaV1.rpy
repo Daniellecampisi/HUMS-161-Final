@@ -117,20 +117,24 @@ label outcome1V1:
     $qualityRandomizer = random.randint(0,1)
     if(qualityRandomizer == 1):
         crown "I remain in my homeland, with my people. Despite our closeness my time is fading as I slowly decay from inadequate care."
+        jump start
     else:
         crown "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
+        jump start
     return
 label outcome2V1:
     scene bg 2 with fade
     crown "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
+    jump start
     return
 label outcome3V1:
     scene bg 2 with fade
     crown "I was transfered to a museum in England, watching my people negociate my stewardship and protect my longjevity."
     crown "Although I am far from my homeland, some of my people come to England to guide my conservation and presentation to the public."
-
+    jump start
     return
 label outcome4V1:
     scene bg 2 with fade
     crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+    jump start
     return
