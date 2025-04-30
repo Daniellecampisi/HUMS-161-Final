@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/EthiopiaV1.rpy", line 119: Indentation mismatch.
+File "game/EthiopiaV2.rpy", line 31: choice menuitem expects a non-empty block.
+    "Retaliate against the imprisionment.":
+                                           ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue Apr 22 13:32:28 2025
+Tue Apr 29 16:48:45 2025

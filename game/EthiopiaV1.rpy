@@ -12,6 +12,8 @@ label E_V1_Intro:
     menu: 
         "Ethiopia":
             jump consoldationV1
+        "England":
+            jump missionaries
         # "England"
     return
 
