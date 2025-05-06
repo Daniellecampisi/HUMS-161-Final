@@ -95,9 +95,9 @@ image start = "Start.png"
 
 
 # The game starts here.
-
+define started = 0
 label start:
-
+    
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -111,9 +111,10 @@ label start:
 
 
     # These display lines of dialogue.
-
-    narr "Welcome to the Cultural Trafficking Digital Collection."
-
+    if started == 0:
+        narr "Welcome to the Cultural Trafficking Digital Collection."
+    
+    $started = 1
     narr "What artifact will you explore?"
 
     menu:
