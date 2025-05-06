@@ -62,16 +62,6 @@ label repatriation_fail:
     jump iraq_outcome_failed
     return
 
-label iraq_outcome_repatriated:
-    gate "The parts of me which we're taken are returned home. Though I am not whole, I am among my people once more."
-    jump start
-label iraq_outcome_repatriated2:
-    gate "Although I am far from my homeland,  my people come to Germany to guide my conservation and presentation to the public."
-    jump start
-
-label iraq_outcome_failed:
-    gate "Still far from home, I wait behind glass. But the voices calling for my return grow stronger every year."
-    jump start
 
 
 label iraq_preservation:
@@ -80,6 +70,49 @@ label iraq_preservation:
     jump iraq_outcome_preservation
     return
 
+label iraq_outcome_repatriated:
+    gate "The parts of me which we're taken are returned home. Though I am not whole, I am among my people once more."
+    scene Gate with fade
+    crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+    window hide
+    show I1V1 with fade
+    pause
+    scene black
+    hide I1V1 with fade
+    window show
+    jump start
+label iraq_outcome_repatriated2:
+    gate "Although I am far from my homeland,  my people come to Germany to guide my conservation and presentation to the public."
+    scene Gate with fade
+    crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+    window hide
+    show I1V2 with fade
+    pause
+    scene black
+    hide I1V2 with fade
+    window show
+    jump start
+
+label iraq_outcome_failed:
+    gate "Still far from home, I wait behind glass. But the voices calling for my return grow stronger every year."
+    scene Gate with fade
+    crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+    window hide
+    show I1V3 with fade
+    pause
+    scene black
+    hide I1V3 with fade
+    window show
+    jump start
+
 label iraq_outcome_preservation:
     gate "Though I remain distant, Iraq has rekindled Babylon's legacy through careful restoration of what remains."
+    scene Gate with fade
+    crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+    window hide
+    show I1V4 with fade
+    pause
+    scene black
+    hide I1V4 with fade
+    window show
     jump start

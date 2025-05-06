@@ -53,6 +53,15 @@ image ruinsPeru = "RuinsP.png"
 image PV1 = "PV1.png"
 image PV2 = "PV2.png"
 image PV3 = "PV3.png"
+
+
+# IRAQ IMAGES
+image Gate = "Gate.png"
+#IRAQ DEcisions
+image I1V1 = "I1V1.png"
+image I1V2 = "I1V2.png"
+image I1V3 = "I1V3.png"
+image I1V4 = "I1V4.png"
 #MISC IMAGES
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
