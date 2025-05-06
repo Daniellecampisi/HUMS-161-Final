@@ -114,10 +114,10 @@ label outcomeLoan:
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
     window hide
-    show E2Loan with fade
+    show E2loan with fade
     pause
     scene black
-    hide E2Loan with fade
+    hide E2loan with fade
     window show
     jump start
 label outcomeLoan2:
