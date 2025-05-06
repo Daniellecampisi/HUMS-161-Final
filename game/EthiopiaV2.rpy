@@ -44,7 +44,7 @@ label diplomacyAttemptedUK:
     define diplomacy = 0
     $prisionChance = random.randint(1,10)
     if prisionChance >= 4:
-        jump diplomacySucess
+        jump diplomacySuccess
     else:
         jump diplomacyFail
     return
