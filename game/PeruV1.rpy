@@ -4,7 +4,7 @@ label Peru_Path:
     jump Moche_Period
 
 label Moche_Period:
-    scene bg desert_moche with dissolve
+    scene ruinsPeru with dissolve
     tomb "It is around 250 AD. I, the Lord of Sipán, am buried in Huaca Rajada with great ceremony."
     tomb "Gold, silver, copper, fine ceramics, and sacred animals surround me—guarding my journey to the afterlife."
     tomb "My people mourn. My power lives on in metal and myth."
@@ -12,7 +12,7 @@ label Moche_Period:
     jump Looting_Era
 
 label Looting_Era:
-    scene bg night_digsite with fade
+    scene SiteP with fade
     narr "Early 1987: Looters—huaqueros—discover traces of gold in Huaca Rajada."
     narr "They begin to illegally dig and extract treasures under cover of night."
     menu:
@@ -22,6 +22,7 @@ label Looting_Era:
             jump Police_Alerted
 
 label BlackMarket_Trafficking:
+    scene excavate with fade
     $chance_looted = random.randint(0, 4)
     if chance_looted > 1:
         narr "Looters smuggle irreplaceable artifacts into the black market."
@@ -33,12 +34,13 @@ label BlackMarket_Trafficking:
         jump Scientific_Excavation
 
 label Police_Alerted:
+    scene ruinsPeru with dissolve
     narr "Police intercept looters and recover some artifacts."
     narr "They contact Peruvian archaeologist Walter Alva."
     jump Scientific_Excavation
 
 label Scientific_Excavation:
-    scene bg excavation_day with dissolve
+    scene excavate with dissolve
     narr "Walter Alva and his team begin formal excavations in February 1987."
     narr "What they find astounds the world: the intact royal tomb of the Lord of Sipán."
     narr "Over 451 ceremonial objects, including gold necklaces, funerary masks, and intricate earspools are preserved."
@@ -50,7 +52,9 @@ label Scientific_Excavation:
             jump Build_Local_Museum
 
 label Artifact_Export_Debate:
+    scene SiteP with dissolve
     $chance_looted = random.randint(0, 5)
+    scene
     if chance_looted > 3:
         narr "Due to infrastructure issues, some artifacts are loaned to international museums."
         narr "They gain global attention—but stir debates at home."
@@ -60,6 +64,7 @@ label Artifact_Export_Debate:
         jump Build_Local_Museum
 
 label Export_Controversy:
+    scene ruinsPeru with dissolve
     narr "Controversy grows over artifacts displayed abroad."
     narr "Should Peru negotiate for permanent repatriation?"
     menu:
@@ -69,6 +74,7 @@ label Export_Controversy:
             jump Repatriation_Effort
 
 label Repatriation_Effort:
+    scene excavate with dissolve
     $chance_looted = random.randint(0, 10)
     if chance_looted > 6:
         narr "Peru succeeds in recovering several artifacts from private collections and museums."
@@ -78,7 +84,7 @@ label Repatriation_Effort:
         jump CulturalLoss_Ending
 
 label Build_Local_Museum:
-    scene bg museum_opening with fade
+    scene museo with fade
     narr "In 2002, the Royal Tombs of Sipán Museum opens in Lambayeque."
     narr "It becomes a source of pride, housing the Lord of Sipán and safeguarding his treasures."
     narr "Thousands visit yearly to learn about the Moche civilization."
@@ -86,6 +92,7 @@ label Build_Local_Museum:
 
 # ENDINGS
 label Peru_Cultural_Pride_Ending:
+    
     tomb "I am home, where my people honor me with reverence and pride."
     tomb "Their efforts preserve not only my body, but the spirit of the Moche."
     jump start
