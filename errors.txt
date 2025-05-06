@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/EthiopiaV2.rpy", line 31: choice menuitem expects a non-empty block.
-    "Retaliate against the imprisionment.":
-                                           ^
+File "game/script.rpy", line 49: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "The Euphronios Krater"
+                           ^
 
-Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue Apr 29 16:48:45 2025
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Mon May  5 23:02:40 2025

@@ -8,7 +8,7 @@ define repatriationSuccess = False
 #introduction to the scene
 label E_V1_Intro:
     scene black with fade
-    narr "You have selected the Maqdala Crown as your first object. Which side would you like to play as?"
+    narr "You have selected the Maqdala Crown as your object. Which side would you like to play as?"
     menu: 
         "Ethiopia":
             jump consoldationV1

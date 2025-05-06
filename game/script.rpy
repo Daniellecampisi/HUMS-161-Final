@@ -5,6 +5,8 @@
 
 define narr = Character(" ")
 define crown = Character("The Maqdala Crown")
+define bust = Character("The Bust of Nefertiti")
+
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
@@ -40,12 +42,12 @@ label start:
     narr "What artifact will you explore?"
 
     menu:
-    "The Bust of Nefertiti":
-        jump EgyptV1_Intro
-    "The Maqdala Crown.":
-        jump E_V1_Intro
-    "The Euphronios Krater"
-        jump Krater
+        "The Bust of Nefertiti":
+            jump EgyptV1_Intro
+        "The Maqdala Crown.":
+            jump E_V1_Intro
+        "The Euphronios Krater":
+            jump Krater
 
     # jump E_V1_Intro
 
