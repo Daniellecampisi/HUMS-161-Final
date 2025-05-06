@@ -2,11 +2,29 @@
 errors listed below, and try again.
 
 
-The label German_Culture_Bust is defined twice, at File "game/EgyptV1.rpy", line 166:
-label German_Culture_Bust:
-and File "game/EgyptV2.rpy", line 1:
-label German_Culture_Bust:
+File "game/script.rpy", line 10: expected statement.
+    <<<<<<< HEAD
+                ^
 
+File "game/script.rpy", line 13: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 15: expected statement.
+    >>>>>>> ec1a966e73411d119b2a6da8dd38dd1cca483316
+                                                    ^
+
+File "game/script.rpy", line 57: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 60: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 64: expected statement.
+    >>>>>>> ec1a966e73411d119b2a6da8dd38dd1cca483316
+                                                    ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Mon May  5 23:19:33 2025
+Mon May  5 23:54:35 2025
