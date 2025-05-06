@@ -57,6 +57,9 @@ image PV3 = "PV3.png"
 
 # IRAQ IMAGES
 image Gate = "Gate.png"
+image iraq = "Iraq.png"
+image Gmny = "german.png"
+image babylon = "Babylon.png"
 #IRAQ DEcisions
 image I1V1 = "I1V1.png"
 image I1V2 = "I1V2.png"

@@ -1,5 +1,5 @@
 label ISHTARV1:
-    scene bg berlin_archive with fade
+    scene babylon with fade
     narr "It is 1902. German archeologists, have begun excavating the ancient city of Babylon in Ottoman Iraq."
     narr "Soon, an extraordinary discovery emerges: fragments of a monumental gateway adorned with dragons and lions—the Ishtar Gate."
     narr "Koldewey proposes the gate be shipped to Berlin for reconstruction. Should the museum support the proposal?"
@@ -11,6 +11,7 @@ label ISHTARV1:
     return
 
 label approve_gate_transfer:
+    scene Gmny with fade
     narr "With permission from Ottoman authorities and German funding, hundreds of crates begin their journey to Berlin."
     narr "The Pergamon Museum's team reconstructs the gate from the fragments—carefully, meticulously."
     narr "The result is a masterpiece of archaeological display. Crowds flock to see it. Berlin becomes a center of Near Eastern heritage."
@@ -29,6 +30,7 @@ label quiet_acclaim:
     jump scrutiny_begins
 
 label scrutiny_begins:
+    scene iraq with fade
     narr "In the 21st century, Iraq formally requests the return of the Ishtar Gate. The call is amplified by scholars and cultural officials."
     menu:
         "Defend the legality and preservation value of the acquisition":
@@ -37,6 +39,7 @@ label scrutiny_begins:
             jump open_dialogue
 
 label leave_in_situ:
+    scene Gate with fade
     narr "The team documents the gate in detail, but does not remove it. Fragments remain in Babylon, exposed to time and conflict."
     narr "In the decades that follow, political turmoil hampers preservation. Yet Iraqis retain ownership of their cultural past."
     gate "Though battered, I stayed in my birthplace. My scars are real—but so is my story."
@@ -49,6 +52,7 @@ label leave_in_situ:
     jump start
 
 label defend_berlin:
+    scene Gmny with fade
     narr "The Pergamon Museum cites the original permits from the Ottoman Empire, the careful reconstruction, and decades of preservation."
     $ germanPosition = random.randint(0, 5)
     if germanPosition >= 3:
@@ -59,6 +63,7 @@ label defend_berlin:
         jump increasing_pressure
 
 label open_dialogue:
+    scene babylon with fade
     narr "German officials meet with Iraqi cultural leaders. Multiple proposals are discussed—none simple, all politically sensitive."
     menu:
 

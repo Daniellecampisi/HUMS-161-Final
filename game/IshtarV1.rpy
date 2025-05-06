@@ -16,7 +16,7 @@ label Ishtar_Intro:
     return
 
 label iraq_intro:
-
+    scene babylon with fade
     gate "I was built in the time of Nebuchadnezzar II, a symbol of Babylon's glory and devotion to the goddess Ishtar."
     gate "Centuries buried me in silence—until foreign hands unearthed me in the 20th century."
     narr "German archeologists excavated fragments of the gate and shipped them out of Iraq."
@@ -31,7 +31,7 @@ label iraq_intro:
     return
 
 label iraq_diplomacy:
-
+    scene Gmny with fade
     gate "Delegations are sent, letters written. Iraq's call grows louder: Return the gate."
     $iraqEffort = random.randint(0, 5)
     if iraqEffort >= 3:
@@ -42,7 +42,7 @@ label iraq_diplomacy:
 
 
 label repatriation_success:
-
+    scene babylon with fade
     gate "Against all odds, Germany agrees to return key fragments and collaborates with Iraq on a future reconstruction."
     narr "What should be done?"
     menu:
@@ -58,6 +58,7 @@ label repatriation_success:
     return
 
 label repatriation_fail:
+    scene iraq with fade
     gate "The Pergamon Museum offers no formal response. The gate remains a centerpiece in Berlin."
     jump iraq_outcome_failed
     return
@@ -65,6 +66,7 @@ label repatriation_fail:
 
 
 label iraq_preservation:
+    scene iraq with fade
     gate "Teams of archaeologists and conservationists begin to care for what fragments remain in Babylon."
     narr "Though the full gate remains in Berlin, the Iraqi government invests in making Babylon a UNESCO heritage site."
     jump iraq_outcome_preservation
