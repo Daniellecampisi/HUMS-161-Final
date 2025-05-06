@@ -18,6 +18,18 @@ image MountainView = "MountainView.png"
 image MuseumUK = "MuseumUK.png"
 
 
+
+
+# EGYPT IMAGES
+image Bust_NEF = "bustnef.png"
+image german_museum = "GerMuseum.png"
+image sculptor_head = "Scupltor.png"
+image pharoh = "pharoh.png"
+image city = "CityEgypt.png"
+
+
+
+#MISC IMAGES
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
