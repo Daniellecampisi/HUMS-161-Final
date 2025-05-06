@@ -84,6 +84,7 @@ label Build_Local_Museum:
     narr "Thousands visit yearly to learn about the Moche civilization."
     jump Peru_Cultural_Pride_Ending
 
+# ENDINGS
 label Peru_Cultural_Pride_Ending:
     tomb "I am home, where my people honor me with reverence and pride."
     tomb "Their efforts preserve not only my body, but the spirit of the Moche."
