@@ -1,8 +1,8 @@
 init python:
     import random
 label missionaries:
+    scene MuseumUK with fade
     narr "It is the height of the British Empire. Across continents, missionaries are dispatched to spread the Christian faith and British influence."
-
     narr "Now, a group seeks permission to travel to the distant highlands of Ethiopia-a proud, ancient Christian kingdom, yet one that has long resisted foreign intervention."
     narr "Should we allow a missionary group to travel to Ethiopia?"
     menu: 
@@ -22,6 +22,8 @@ label areimprisioned:
     return
 
 label imprisioned:
+    scene MountainView with fade
+
     narr "The missionaries arrive, hoping to teach and convert, but soon find themselves entangled in local politics."
     narr "Emperor Tewodros II, frustrated by unfulfilled promises from Britain and suspicious of foreign intentions, imprisons the missionaries along with other Europeans."
     narr "News of their capture reaches London, sparking outrage in Parliament and the press. What should be done regarding this?"
@@ -32,6 +34,7 @@ label imprisioned:
             jump militaryExpedition
     return
 label imprisionedEurope:
+    scene MountainExpanse with fade
     narr "The missionaries are refused approval, though other European powers make expeditions to Ethiopia"
     narr "Emperor Tewodros II, imprisons the other European missionaries and diplomats."
     narr "News of their capture reaches London, sparking outrage in the press. What should be done regarding this?"
@@ -49,11 +52,13 @@ label diplomacyAttemptedUK:
         jump diplomacyFail
     return
 label diplomacySuccess:
+    scene CastleView with fade
     narr "Diplomatic envoys successfully negotiate the release of the captives."
     narr "Though tensions remain, war is averted—for now."
     jump alternateEndings
 
 label diplomacyFail:
+    scene CastleView with fade
     narr "Diplomacy fails. The government authorizes a military expedition—not for conquest, but to rescue the hostages and restore British prestige."
     jump militaryExpedition
 
@@ -65,6 +70,7 @@ label militaryExpedition:
 
 label lootingMaqdala:
     # scene bg looting with fade
+    scene MountainExpanse with fade
     narr "Within the fortress, the British discover a trove of treasures: gilded crowns, golden chalices, sacred manuscripts, and priceless relics of Ethiopian heritage."
     narr "Fifteen elephants and nearly two hundred mules are needed to carry away the loot. Some soldiers take items as souvenirs; others become state property."
     jump fateOfCrown
@@ -77,7 +83,7 @@ label fateOfCrown:
 
 
 label presentDayDecision:
-    scene bg globe with fade
+    scene MuseumUK with fade
     narr "Now the world is reckoning with the legacies of empire. Ethiopia’s calls for restitution grow louder."
     menu:
         "Return the crown permanently.":
@@ -87,33 +93,41 @@ label presentDayDecision:
         "Refuse all repatriation efforts.":
             jump outcomeDenied
 
+
+# ENDINGS
 label repatriationApproved:
     # scene bg celebration with fade
+    scene crownV with fade
     crown "At long last, I return home. Carried across oceans once more, not as spoils of war—but as a gesture of healing."
     narr "The crown is placed in a restored sanctuary, symbolizing a new era of cooperation."
-    return
+    jump start
 
 label outcomeLoan:
     # scene bg shared with fade
+    scene crownV with fade
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
-    return
+    jump start
 label outcomeLoan2:
     # scene bg shared with fade
+    scene crownV with fade
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
-    return
+    jump start
 label outcomeDenied:
     # scene bg museum with fade
+    scene crownV with fade
     crown "Here I remain, a silent witness to the passing of years."
     crown "I hear the footsteps of strangers and the murmur of distant lands. But my heart remembers the songs of my homeland."
     narr "The crown remains a glittering prize of empire—its future uncertain, its legacy contested."
-    return
+    jump start
 
 label alternateEndings:
+    scene MountainExpanse with fade
     define ethiopiaCare = 0
     $ethiopiaCare = random.randint(0,5)
     if ethiopiaCare > 3:
+        scene crownV with fade
         narr "Ethiopia is able to keep the Maqdala Crown in its stewardship. "
         crown "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
     else:
@@ -123,4 +137,4 @@ label alternateEndings:
                 jump outcomeLoan  
             "Arrange a co-stewardship program.":
                 jump outcomeLoan2
-        return
+        jump start

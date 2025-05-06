@@ -9,6 +9,14 @@ define bust = Character("The Bust of Nefertiti")
 define krater = Character("The Euphronios Krater")
 define gate = Character("The Ishtar Gate")
 define tomb = Character("The Lord of Sipán")
+# ETHIOPIA IMAGES
+
+image crownV = "crownV.png"
+image CastleView = "CastleView.png"
+image MountainExpanse = "MountainExpanse.png"
+image MountainView = "MountainView.png"
+image MuseumUK = "MuseumUK.png"
+
 
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
