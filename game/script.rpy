@@ -8,7 +8,8 @@ define crown = Character("The Maqdala Crown")
 define bust = Character("The Bust of Nefertiti")
 define krater = Character("The Euphronios Krater")
 define gate = Character("The Ishtar Gate")
-define krater = Character("The Euphronios Krater")
+define tomb = Character("The Lord of Sipán")
+
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
@@ -52,7 +53,8 @@ label start:
             jump KraterIntro
         "The Ishtar Gate":
             jump Ishtar_Intro
-
+        "The Lord of Sipán":
+            jump Peru_Path
     # jump E_V1_Intro
 
     return
