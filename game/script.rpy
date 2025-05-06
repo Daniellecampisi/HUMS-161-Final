@@ -43,8 +43,16 @@ image sculptor_head = "Scupltor.png"
 image pharoh = "pharoh.png"
 image city = "CityEgypt.png"
 
-
-
+#PERU IMAGES
+image excavate = "ExP.png"
+image LordS = "LordS.png"
+image SiteP = "SiteP.png"
+image museo = "MuseoP.png"
+image ruinsPeru = "RuinsP.png"
+#PERU ENDINGS
+image PV1 = "PV1.png"
+image PV2 = "PV2.png"
+image PV3 = "PV3.png"
 #MISC IMAGES
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
