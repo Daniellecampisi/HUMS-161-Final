@@ -22,6 +22,7 @@ image O3E = "Outcome3Egypt.png"
 image Miscare  = "MiscareEnding.png"
 image AutonomyEnd = "Autonomy.png"
 image Germanend = "GermanEnding.png"
+image Copat = "EEND5.png"
 
 #ETHIOPIA ENDINGS
 image E1V1A = "E1V1A.png"

@@ -137,10 +137,9 @@ label InGermayBust:
             if(chance_moved > 3):
                 jump conservation_not_sucess_bust
             else:
-                bust "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
+                jump Germany_Final_Ownership
         "Leave the bust in Germany":
-                bust "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
-
+                jump Germany_Final_Ownership
 label conservation_not_sucess_bust:
     narr "How should Egypt attempt to regain ownership of the bust?"
     menu:

@@ -81,19 +81,29 @@ label Germany_Final_Ownership:
     scene Bust_NEF with fade    
     bust "Germany continues to deny repatriation claims. Despite international pressure, I remain here."
     bust "Yet I hear my people’s voices echo through halls far from their homeland."
-    jump start
-    return
 
-
-label outcome2V1EGYPT:
-    scene Bust_NEF with fade    
-    crown "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
-    
+        
     window hide
     show Germanend with fade
     pause
     scene black
     hide Germanend with fade
     window show
+    jump start
+    return
+
+
+label outcome2V1EGYPT:
+    scene Bust_NEF with fade    
+    bust "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
+    bust "My people help guide my conservation and presentation to the public in my new home."
+
+    window hide
+    show Copat with fade
+    pause
+    scene black
+    hide Copat with fade
+    window show
+
     jump start
     return
