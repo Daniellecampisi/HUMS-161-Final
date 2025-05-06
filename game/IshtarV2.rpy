@@ -55,32 +55,27 @@ label defend_berlin:
 label open_dialogue:
     narr "German officials meet with Iraqi cultural leaders. Multiple proposals are discussed—none simple, all politically sensitive."
     menu:
-        "Offer digital and replica reconstruction in Iraq":
-            jump offer_replica
+
         "Propose a long-term loan of select fragments":
             jump loan_fragments
         "Return the gate in stages":
             jump partial_return
 
-label offer_replica:
-    narr "A high-fidelity 3D replica is constructed in Babylon. Germany funds museum development and shared research initiatives."
-    ishtar "Though my body remains afar, my likeness and spirit return to the land of my origin."
-    return
 
 label loan_fragments:
     narr "Germany agrees to loan decorative elements to Iraq for long-term display and rotating exhibitions."
     ishtar "A compromise—but one that restores connection and story to my birthplace."
-    return
+    jump start
 
 label partial_return:
     narr "In a historic agreement, Germany returns key fragments and begins training Iraqi conservators."
     ishtar "Piece by piece, I return to the cradle of my creation—carried not by conquest, but collaboration."
-    return
+    jump start
 
 label continue_debate:
     narr "The museum maintains possession, citing its responsibility to global audiences and the fragility of the structure."
     ishtar "Behind glass, I speak to millions—but not in the language of my land."
-    return
+    jump start
 
 label increasing_pressure:
     narr "Iraqi officials bring the issue to UNESCO. Protests and op-eds raise the stakes. Germany must decide again."
@@ -90,6 +85,7 @@ label increasing_pressure:
         "Double down on defense":
             narr "Germany reasserts its claims. The gate remains, but criticism grows. The story is far from over."
             ishtar "Once again, my fate lies not in stone—but in memory and debate."
+            jump start
     return
 
 # label germany_intro:
