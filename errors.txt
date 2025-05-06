@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/IshtarV1.rpy", line 107: Indentation mismatch.
+File "game/KraterV2.rpy", line 75: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    window hide
+    ^
 
-Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue May  6 14:55:32 2025
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Tue May  6 15:50:35 2025

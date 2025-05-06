@@ -72,12 +72,12 @@ label negotiate_return:
             # co stwe ending
             narr "Italy agrees on a co-stewardship model, allowing the museum to retain the object while still respecting its origin."
             krater "I remain far from my homeland, but still under the influence of my people."
-                window hide
-                show G5 with fade
-                pause
-                scene black
-                hide G5 with fade
-                window show
+            window hide
+            show G5 with fade
+            pause
+            scene black
+            hide G5 with fade
+            window show
 
         "Complete return of the object.":
             narr "After lengthy talks, the museum reaches an agreement with Italy. The krater will remain on view for a final exhibition before its return."
