@@ -39,7 +39,7 @@ label scrutiny_begins:
 label leave_in_situ:
     narr "The team documents the gate in detail, but does not remove it. Fragments remain in Babylon, exposed to time and conflict."
     narr "In the decades that follow, political turmoil hampers preservation. Yet Iraqis retain ownership of their cultural past."
-    ishtar "Though battered, I stayed in my birthplace. My scars are real—but so is my story."
+    gate "Though battered, I stayed in my birthplace. My scars are real—but so is my story."
     jump start
 
 label defend_berlin:
@@ -65,7 +65,7 @@ label open_dialogue:
 label loan_fragments:
     scene Gate with fade
     narr "Germany agrees to loan decorative elements to Iraq for long-term display and rotating exhibitions."
-    ishtar "A compromise—but one that restores connection and story to my birthplace."
+    gate "A compromise—but one that restores connection and story to my birthplace."
     
     window hide
     show I2V1 with fade
@@ -79,7 +79,7 @@ label loan_fragments:
 label partial_return:
     scene Gate with fade
     narr "In a historic agreement, Germany returns key fragments and begins training Iraqi conservators."
-    ishtar "Piece by piece, I return to the cradle of my creation—carried not by conquest, but collaboration."
+    gate "Piece by piece, I return to the cradle of my creation—carried not by conquest, but collaboration."
     window hide
     show I2V2 with fade
     pause
@@ -91,7 +91,7 @@ label partial_return:
 label continue_debate:
     scene Gate with fade
     narr "The museum maintains possession, citing its responsibility to global audiences and the fragility of the structure."
-    ishtar "Behind glass, I speak to millions—but not in the language of my land."
+    gate "Behind glass, I speak to millions—but not in the language of my land."
     window hide
     show I2V3 with fade
     pause
@@ -108,7 +108,7 @@ label increasing_pressure:
         "Double down on defense":
             scene Gate with fade
             narr "Germany reasserts its claims. The gate remains, but criticism grows. The story is far from over."
-            ishtar "Once again, my fate lies not in stone—but in memory and debate."
+            gate "Once again, my fate lies not in stone—but in memory and debate."
             window hide
             show I2V4 with fade
             pause
