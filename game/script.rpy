@@ -5,12 +5,8 @@
 
 define narr = Character(" ")
 define crown = Character("The Maqdala Crown")
-<<<<<<< Updated upstream
 define bust = Character("The Bust of Nefertiti")
-
-=======
 define krater = Character("The Euphronios Krater")
->>>>>>> Stashed changes
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
@@ -51,11 +47,7 @@ label start:
         "The Maqdala Crown.":
             jump E_V1_Intro
         "The Euphronios Krater":
-<<<<<<< Updated upstream
-            jump Krater
-=======
             jump KraterIntro
->>>>>>> Stashed changes
 
     # jump E_V1_Intro
 
