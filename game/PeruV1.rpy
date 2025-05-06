@@ -95,17 +95,35 @@ label Peru_Cultural_Pride_Ending:
     
     tomb "I am home, where my people honor me with reverence and pride."
     tomb "Their efforts preserve not only my body, but the spirit of the Moche."
+    window hide
+    show PV1 with fade
+    pause
+    scene black
+    hide PV1 with fade
+    window show
     jump start
-    return
+
 
 label CulturalLoss_Ending:
     tomb "I am scattered, fragmented in forgotten halls and secret vaults."
     tomb "My story is told in whispers, incomplete—my legacy dimmed by greed."
+    window hide
+    show PV3 with fade
+    pause
+    scene black
+    hide PV3 with fade
+    window show
     jump start
-    return
+
 
 label International_Loan_Ending:
     tomb "Though I travel far, my name carries the glory of Sipán."
     tomb "Perhaps someday I will return—but for now, I teach the world about the greatness of the Moche."
+    window hide
+    show PV2 with fade
+    pause
+    scene black
+    hide PV2 with fade
+    window show
     jump start
-    return
+
