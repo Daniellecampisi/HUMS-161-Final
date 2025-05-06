@@ -160,7 +160,3 @@ label outcome3BUST:
     bust "Although I am far from my homeland, some of my people come to Germany to guide my conservation and presentation to the public."
     jump start
     return
-
-
-# GERMAN BRANCH
-label German_Culture_Bust:

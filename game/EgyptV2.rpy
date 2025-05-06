@@ -16,10 +16,10 @@ label Honest_Declaration:
     narr "Borchardt presents the bust truthfully, identifying it as a limestone portrait of Queen Nefertiti."
     $chance_moved = random.randint(0,5)
     if chance_moved > 2:
-        narr "The Egyptian Antiquities Authority (EAA), recognizing its significance, retains the bust for Egypt."
+        narr "The Egyptian Antiquities Authority, recognizing its significance, retains the bust for Egypt."
         jump Egypt_Autonomy_Ending
     else:
-        narr "Due to bureaucratic oversight and undervaluation, the EAA still allows the bust to be included in Germany’s share."
+        narr "Due to bureaucratic oversight and undervaluation, the Egyptian Antiquities Authority still allows the bust to be included in Germany’s share."
         jump Bust_Sent_to_Germany
 
 label Deceptive_Declaration:
@@ -38,7 +38,7 @@ label Misrepresentation_Succeeds:
         narr "The deception is successful. Egyptian officials do not recognize the bust’s true worth."
         jump Bust_Sent_to_Germany
     else:
-        narr "Gustave Lefebvre of the EAA grows suspicious and investigates further."
+        narr "Gustave Lefebvre of the Egyptian Antiquities Authority grows suspicious and investigates further."
         narr "He realizes the bust's importance and claims it for Egypt."
         jump Egypt_Autonomy_Ending
 

@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 49: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "The Euphronios Krater"
-                           ^
+The label German_Culture_Bust is defined twice, at File "game/EgyptV1.rpy", line 166:
+label German_Culture_Bust:
+and File "game/EgyptV2.rpy", line 1:
+label German_Culture_Bust:
+
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Mon May  5 23:02:40 2025
+Mon May  5 23:19:33 2025
