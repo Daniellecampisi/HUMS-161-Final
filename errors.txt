@@ -2,29 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 10: expected statement.
-    <<<<<<< HEAD
-                ^
+File "game/IshtarV1.rpy", line 107: Indentation mismatch.
 
-File "game/script.rpy", line 13: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 15: expected statement.
-    >>>>>>> ec1a966e73411d119b2a6da8dd38dd1cca483316
-                                                    ^
-
-File "game/script.rpy", line 57: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 60: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 64: expected statement.
-    >>>>>>> ec1a966e73411d119b2a6da8dd38dd1cca483316
-                                                    ^
-
-Ren'Py Version: Ren'Py 8.2.3.24061702
-Mon May  5 23:54:35 2025
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Tue May  6 14:55:32 2025
