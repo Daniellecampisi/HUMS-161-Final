@@ -8,6 +8,7 @@ define crown = Character("The Maqdala Crown")
 define bust = Character("The Bust of Nefertiti")
 define krater = Character("The Euphronios Krater")
 define gate = Character("The Ishtar Gate")
+define krater = Character("The Euphronios Krater")
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
