@@ -62,11 +62,14 @@ label investigate_provenance:
             else:
                 jump public_pressure
 
+
+
 label negotiate_return:
     # TODO object
     narr "A few options for repatriation come up. Which one should be selected?"
     menu:
         "A co-stewardship model.":
+            # co stwe ending
             narr "Italy agrees on a co-stewardship model, allowing the museum to retain the object while still respecting its origin."
             krater "I remain far from my homeland, but still under the influence of my people."
 
@@ -85,7 +88,7 @@ label negotiate_return:
 
 label refuse_return:
     # TODO object
-
+    # contested legacy 
     narr "The museum refuses to return the Krater, citing good faith acquisition. Legal and diplomatic pressures mount. The krater becomes a symbol of contested heritage."
     krater "Throughout time, I was kept behind glass, far from the soil where I once belonged."
     window hide

@@ -109,7 +109,7 @@ label repatChanceKrater:
 
 label repatSuccessKrater:
     # TODO SHOW KRATER
-
+    #repatriation sucess 
     krater "After years abroad, I was finally returned to Italy, welcomed with reverence and sorrow for the journey I endured."
     narrator "The Krater was placed in the National Etruscan Museum of Villa Giulia, where it now serves as a symbol of cultural restitution."
     
@@ -126,6 +126,7 @@ label repatSuccessKrater:
 label repatFailKrater:
         # TODO SHOW KRATER
 
+    #lost but not forgetton 
     krater "Throughout time, I was kept behind glass, far from the soil where I once belonged."
     krater "Whispers of my stolen past echo through the halls, as I remain a trophy rather than a tribute."
     
@@ -143,7 +144,7 @@ label repatFailKrater:
 
 label legalExcavation:
     # TODO SHOW KRATER
-
+    #dignity ending
     krater "This time, my awakening was respectful. Hands trained in care unearthed me, documenting every fragment of my story."
     narrator "The Krater was displayed in a regional Italian museum, with full context of its history and cultural relevance."
     
@@ -159,7 +160,7 @@ label legalExcavation:
 
 label preservedSite:
     # TODO SHOW KRATER
-
+    #untouched silence 
     narrator "The necropolis remained untouched, preserving the mystery and cultural spirit of the site."
     narrator "Generations of scholars debated its potential contents, but the site stood as a symbol of what should remain sacred."
     
