@@ -17,7 +17,16 @@ image MountainExpanse = "MountainExpanse.png"
 image MountainView = "MountainView.png"
 image MuseumUK = "MuseumUK.png"
 
-
+#ETHIOPIA ENDINGS
+image E1V1A = "E1V1A.png"
+image E1V1B = "E1V1B.png"
+image E1V2 = "E1V2.png"
+image E1V3 = "E1V3.png"
+image E1V4 = "E1V4.png"
+image E2loan = "E2Loan.png"
+image E2NoRepat = "E2NoRepat.png"
+image E2RepatFull = "E2RepatFull.png"
+image NoLoot = "NoLooting.png"
 
 
 # EGYPT IMAGES
