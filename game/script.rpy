@@ -37,8 +37,16 @@ label start:
 
     narr "Welcome to the Cultural Trafficking Digital Collection."
 
-    narr "I hope you enjoy the first artifact."
+    narr "What artifact will you explore?"
 
-    jump E_V1_Intro
+    menu:
+    "The Bust of Nefertiti":
+        jump EgyptV1_Intro
+    "The Maqdala Crown.":
+        jump E_V1_Intro
+    "The Euphronios Krater"
+        jump Krater
+
+    # jump E_V1_Intro
 
     return
