@@ -156,6 +156,14 @@ label ArtifactLostBust:
     
     bust "Here I lay, burried under the sands of my people. My people are left unware of my presence and my history."
     bust "As I lie here for centuries to come, I can only hope that one day I will be discovered."
+
+    window hide
+    show ArtifactLost with fade
+    pause
+    scene black
+    hide ArtifactLost with fade
+    window show
+
     jump start
     return
 
@@ -164,6 +172,14 @@ label Egypt_Autonomy_Ending:
     scene Bust_NEF with fade
     # change the background TODO to object 
     bust "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
+   
+    window hide
+    show AutonomyEnd with fade
+    pause
+    scene black
+    hide AutonomyEnd with fade
+    window show
+
     jump start
     return
 
@@ -171,14 +187,29 @@ label Egypt_Autonomy_Ending:
 label Egypt_Miscare_Ending:
     scene Bust_NEF with fade
     # change the background TODO to object 
+
     bust "I remain in my homeland, with my people. Despite our closeness my time is fading as I slowly decay from inadequate care."
+    window hide
+    show Miscare with fade
+    pause
+    scene black
+    hide Miscare with fade
+    window show
     jump start
     return
 # ENDING FOUR
 label outcome3BUST:
     scene Bust_NEF with fade    
     # change the background TODO to object 
+
     bust "I was transfered to a museum in Germany, watching my people negociate my stewardship and protect my longjevity."
     bust "Although I am far from my homeland, some of my people come to Germany to guide my conservation and presentation to the public."
+   
+    window hide
+    show O3E with fade
+    pause
+    scene black
+    hide O3E with fade
+    window show
     jump start
     return

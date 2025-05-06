@@ -17,6 +17,12 @@ image MountainExpanse = "MountainExpanse.png"
 image MountainView = "MountainView.png"
 image MuseumUK = "MuseumUK.png"
 
+image ArtifactLost = "ArtifactLost.png"
+image O3E = "Outcome3Egypt.png"
+image Miscare  = "MiscareEnding.png"
+image AutonomyEnd = "Autonomy.png"
+image Germanend = "GermanEnding.png"
+
 #ETHIOPIA ENDINGS
 image E1V1A = "E1V1A.png"
 image E1V1B = "E1V1B.png"

@@ -88,5 +88,12 @@ label Germany_Final_Ownership:
 label outcome2V1EGYPT:
     scene Bust_NEF with fade    
     crown "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
+    
+    window hide
+    show Germanend with fade
+    pause
+    scene black
+    hide Germanend with fade
+    window show
     jump start
     return
