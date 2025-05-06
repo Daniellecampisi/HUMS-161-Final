@@ -40,6 +40,12 @@ label leave_in_situ:
     narr "The team documents the gate in detail, but does not remove it. Fragments remain in Babylon, exposed to time and conflict."
     narr "In the decades that follow, political turmoil hampers preservation. Yet Iraqis retain ownership of their cultural past."
     gate "Though battered, I stayed in my birthplace. My scars are real—but so is my story."
+    window hide
+    show I2V5 with fade
+    pause
+    scene black
+    hide I2V5 with fade
+    window show
     jump start
 
 label defend_berlin:
