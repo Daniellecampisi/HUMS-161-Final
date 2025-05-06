@@ -3,7 +3,7 @@ init python:
 
 #introduction to the scene
 label KraterIntro:
-    scene black with fade
+    scene krater with fade
     # TODO SHOW KRATER OBJECT
     narr "You have selected the Euphronios Krater as your object. Which side would you like to play as?"
     menu: 
@@ -15,6 +15,8 @@ label KraterIntro:
     return
 
 label backgroundKrater:
+    scene ath1 with fade
+
         # TODO SHOW ATHENS 1
     krater "I was born in Athens, serving as a centerpiece for cellebrations and gatherings. I was an essential part of my people's social life. "
     krater "I had been adorned with illustrations of Sarpedons death. My adornments were meant to inspire discussion of heroism and mortality. I was buried alongside a fellow Etruscan, in a tomb meant to resemble a home to provide comfort beyond death."
@@ -49,7 +51,8 @@ label lootingChance:
     return
 
 label looting:
-    # TODO SHOW NECROPOLIS
+    scene necrop with fade
+
     krater "In the midst of my rest I was disrupted by looters, who sought to sell me to an antiques dealer."
     krater "They succeeded in finding a buyer and I was soon smuggled to Switzerland. Here efforts were made to restore me" #TODO: add can fail here?
     krater "I was then sold to an American dealer who moved to negotiations with the Metropolitan Museum of Art in New York. The representatives agreed to purchase me and move me into their provenance."
@@ -62,7 +65,7 @@ label looting:
     return
 
 label security:
-        # TODO SHOW NECROPOLIS
+    scene necrop with fade
     narrator "The Krater remained undisturbed, a hidden treasure of the Etruscan legacy."
     narrator "However, a private collector expresses interest in financing a legal excavation."
     menu:
@@ -74,8 +77,8 @@ label security:
 define RC = 0
 label met:
     # in met and want to attempt repatriation
-        # TODO SHOW MET
-
+    # TODO SHOW MET
+    scene met with fade
     krater "I was kept at the Metropolitan Museum of Art, despite the suspicion on my providence."
     narr "What should be done regarding the krater's stewardship?"
     menu:
@@ -87,6 +90,7 @@ label met:
 
 label investigateV1:
         # TODO SHOW ATHENS 2 
+    scene ath2 with fade
 
     narr "The investigation reveals that the Krater was illegally excavated and exported. What should be done?"
     menu:
@@ -109,6 +113,8 @@ label repatChanceKrater:
 
 label repatSuccessKrater:
     # TODO SHOW KRATER
+    scene krater with fade
+
     #repatriation sucess 
     krater "After years abroad, I was finally returned to Italy, welcomed with reverence and sorrow for the journey I endured."
     narrator "The Krater was placed in the National Etruscan Museum of Villa Giulia, where it now serves as a symbol of cultural restitution."
@@ -124,7 +130,7 @@ label repatSuccessKrater:
     return
 
 label repatFailKrater:
-        # TODO SHOW KRATER
+    scene krater with fade
 
     #lost but not forgetton 
     krater "Throughout time, I was kept behind glass, far from the soil where I once belonged."
@@ -143,7 +149,7 @@ label repatFailKrater:
 
 
 label legalExcavation:
-    # TODO SHOW KRATER
+    scene krater with fade
     #dignity ending
     krater "This time, my awakening was respectful. Hands trained in care unearthed me, documenting every fragment of my story."
     narrator "The Krater was displayed in a regional Italian museum, with full context of its history and cultural relevance."
@@ -159,7 +165,7 @@ label legalExcavation:
     return
 
 label preservedSite:
-    # TODO SHOW KRATER
+    scene krater with fade
     #untouched silence 
     narrator "The necropolis remained untouched, preserving the mystery and cultural spirit of the site."
     narrator "Generations of scholars debated its potential contents, but the site stood as a symbol of what should remain sacred."

@@ -93,7 +93,11 @@ image aura = "Aura.png"
 image start = "Start.png"
 
 
-
+image ath1 = "Ath1.png"
+image ath2 = "Ath2.png"
+image met = "met.png"
+image necrop = "Necrop.png"
+image krater = "krater.png"
 # The game starts here.
 define started = 0
 label start:
