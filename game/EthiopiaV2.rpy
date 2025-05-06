@@ -100,6 +100,12 @@ label repatriationApproved:
     scene crownV with fade
     crown "At long last, I return home. Carried across oceans once more, not as spoils of war—but as a gesture of healing."
     narr "The crown is placed in a restored sanctuary, symbolizing a new era of cooperation."
+    window hide
+    show E2RepatFull with fade
+    pause
+    scene black
+    hide E2RepatFull with fade
+    window show
     jump start
 
 label outcomeLoan:
@@ -107,12 +113,24 @@ label outcomeLoan:
     scene crownV with fade
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
+    window hide
+    show E2loan with fade
+    pause
+    scene black
+    hide E2loan with fade
+    window show
     jump start
 label outcomeLoan2:
     # scene bg shared with fade
     scene crownV with fade
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
+    window hide
+    show E2Loan2 with fade
+    pause
+    scene black
+    hide E2Loan2 with fade
+    window show
     jump start
 label outcomeDenied:
     # scene bg museum with fade
@@ -120,6 +138,12 @@ label outcomeDenied:
     crown "Here I remain, a silent witness to the passing of years."
     crown "I hear the footsteps of strangers and the murmur of distant lands. But my heart remembers the songs of my homeland."
     narr "The crown remains a glittering prize of empire—its future uncertain, its legacy contested."
+    window hide
+    show E2NoRepat with fade
+    pause
+    scene black
+    hide E2NoRepat with fade
+    window show
     jump start
 
 label alternateEndings:
@@ -130,6 +154,13 @@ label alternateEndings:
         scene crownV with fade
         narr "Ethiopia is able to keep the Maqdala Crown in its stewardship. "
         crown "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
+        window hide
+        show NoLoot with fade
+        pause
+        scene black
+        hide NoLoot with fade
+        window show
+        jump start
     else:
         narr "Ethiopia is unable to keep the crown and other artifacts in quality conditions. What should be done?"
         menu:
