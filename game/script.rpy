@@ -6,7 +6,7 @@
 define narr = Character(" ")
 define crown = Character("The Maqdala Crown")
 define bust = Character("The Bust of Nefertiti")
-
+define krater = Character("The Euphronios Krater")
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
 image 1 = "1.jpg"
@@ -47,7 +47,7 @@ label start:
         "The Maqdala Crown.":
             jump E_V1_Intro
         "The Euphronios Krater":
-            jump Krater
+            jump KraterIntro
 
     # jump E_V1_Intro
 
