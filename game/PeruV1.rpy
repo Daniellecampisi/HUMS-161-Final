@@ -8,7 +8,7 @@ label Moche_Period:
     tomb "It is around 250 AD. I, the Lord of Sipán, am buried in Huaca Rajada with great ceremony."
     tomb "Gold, silver, copper, fine ceramics, and sacred animals surround me—guarding my journey to the afterlife."
     tomb "My people mourn. My power lives on in metal and myth."
-    narr "My tomb lies untouched for nearly 1,700 years."
+    tomb "My tomb lies untouched for nearly 1,700 years."
     jump Looting_Era
 
 label Looting_Era:
@@ -18,7 +18,7 @@ label Looting_Era:
     menu:
         "Allow looting to continue unchecked.":
             jump BlackMarket_Trafficking
-        "A dispute among looters leads to police involvement.":
+        "Involve local authorities.":
             jump Police_Alerted
 
 label BlackMarket_Trafficking:
@@ -53,15 +53,10 @@ label Scientific_Excavation:
 
 label Artifact_Export_Debate:
     scene SiteP with dissolve
-    $chance_looted = random.randint(0, 5)
-    scene
-    if chance_looted > 3:
-        narr "Due to infrastructure issues, some artifacts are loaned to international museums."
-        narr "They gain global attention—but stir debates at home."
-        jump Export_Controversy
-    else:
-        narr "Despite funding challenges, Peru decides to keep the artifacts."
-        jump Build_Local_Museum
+    narr "Due to infrastructure issues, some artifacts are loaned to international museums."
+    narr "They gain global attention—but stir debates at home."
+    jump Export_Controversy
+
 
 label Export_Controversy:
     scene ruinsPeru with dissolve
@@ -92,7 +87,7 @@ label Build_Local_Museum:
 
 # ENDINGS
 label Peru_Cultural_Pride_Ending:
-    
+    scene LordS with fade
     tomb "I am home, where my people honor me with reverence and pride."
     tomb "Their efforts preserve not only my body, but the spirit of the Moche."
     window hide
@@ -105,6 +100,7 @@ label Peru_Cultural_Pride_Ending:
 
 
 label CulturalLoss_Ending:
+    scene LordS with fade
     tomb "I am scattered, fragmented in forgotten halls and secret vaults."
     tomb "My story is told in whispers, incomplete—my legacy dimmed by greed."
     window hide
@@ -117,6 +113,7 @@ label CulturalLoss_Ending:
 
 
 label International_Loan_Ending:
+    scene LordS with fade
     tomb "Though I travel far, my name carries the glory of Sipán."
     tomb "Perhaps someday I will return—but for now, I teach the world about the greatness of the Moche."
     window hide
