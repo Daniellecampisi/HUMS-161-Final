@@ -1,6 +1,5 @@
 label German_Culture_Bust:
-    scene black with fade
-    #bg of object
+    scene Bust_NEF with fade    
     narr "You have selected to play as Germany during the early 20th century."
     narr "In 1912, a German archaeological team begins excavations at Tell el-Amarna, funded by the German Oriental Company."
     narr "On December 6, 1912, the team, led by Ludwig Borchardt, makes a remarkable discovery..."
@@ -14,7 +13,7 @@ label German_Culture_Bust:
             jump Deceptive_Declaration
 
 label Honest_Declaration:
-    #bg of city
+    scene city with fade
     narr "Borchardt presents the bust truthfully, identifying it as a limestone portrait of Queen Nefertiti."
     $chance_moved = random.randint(0,5)
     if chance_moved > 2:
@@ -25,7 +24,7 @@ label Honest_Declaration:
         jump Bust_Sent_to_Germany
 
 label Deceptive_Declaration:
-        #bg of city
+    scene city with fade
     narr "Borchardt describes the bust as a 'painted plaster bust of a princess.'"
     narr "He shows an unflattering photo and leaves it concealed in a dimly lit room during the inspection."
     
@@ -46,7 +45,7 @@ label Misrepresentation_Succeeds:
         jump Egypt_Autonomy_Ending
 
 label Bust_Sent_to_Germany:
-    #german museum 
+    scene german_museum with fade
     bust "I was quietly shipped to Germany in 1913, my value unnoticed by the Egyptians."
     narr "Years later, in 1924, I was displayed in Berlin to public acclaim."
     narr "Egypt, realizing the mistake, began a campaign for my return."
@@ -68,6 +67,7 @@ label German_Concedes:
 
 label Germany_Refuses_Return:
     #show bust 
+    scene german_museum with fade    
     bust "I remain in the Neues Museum, a centerpiece of Berlin’s collection, but also a symbol of colonial extraction."
     narr "The debate over my rightful home continues in courts and public forums."
     
@@ -78,6 +78,7 @@ label Germany_Refuses_Return:
             jump Germany_Final_Ownership
 
 label Germany_Final_Ownership:
+    scene Bust_NEF with fade    
     bust "Germany continues to deny repatriation claims. Despite international pressure, I remain here."
     bust "Yet I hear my people’s voices echo through halls far from their homeland."
     jump start
@@ -85,7 +86,7 @@ label Germany_Final_Ownership:
 
 
 label outcome2V1EGYPT:
-    scene bg 2 with fade
+    scene Bust_NEF with fade    
     crown "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
     jump start
     return
