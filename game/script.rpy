@@ -66,6 +66,18 @@ image I2V1 = "I2V1.png"
 image I2V2 = "I2V2.png"
 image I2V3 = "I2V3.png"
 image I2V4 = "I2V4.png"
+
+# GREECE 
+
+image G1 = "37.png"
+image G2 = "38.png"
+image G3 = "39.png"
+image G4 = "40.png"
+image G5 = "41.png"
+image G6 = "42.png"
+image G7 = "43.png"
+image G8 = "44.png"
+
 #MISC IMAGES
 image crown = "Crown.jpg"
 image kingdom = "kingdom.jpg"
@@ -78,6 +90,8 @@ image 6 = "6.jpg"
 image 7 = "7.jpg"
 image aura = "Aura.png"
 image start = "Start.png"
+
+
 
 # The game starts here.
 

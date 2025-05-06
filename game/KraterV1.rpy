@@ -114,10 +114,10 @@ label repatSuccessKrater:
     narrator "The Krater was placed in the National Etruscan Museum of Villa Giulia, where it now serves as a symbol of cultural restitution."
     
     window hide
-    show AutonomyEnd with fade
+    show G1 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G1 with fade
     window show
 
     jump start
@@ -131,10 +131,10 @@ label repatFailKrater:
     krater "Whispers of my stolen past echo through the halls, as I remain a trophy rather than a tribute."
     
     window hide
-    show AutonomyEnd with fade
+    show G2 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G2 with fade
     window show
 
     jump start
@@ -149,10 +149,10 @@ label legalExcavation:
     narrator "The Krater was displayed in a regional Italian museum, with full context of its history and cultural relevance."
     
     window hide
-    show AutonomyEnd with fade
+    show G3 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G3 with fade
     window show
 
     jump start
@@ -165,10 +165,10 @@ label preservedSite:
     narrator "Generations of scholars debated its potential contents, but the site stood as a symbol of what should remain sacred."
     
     window hide
-    show AutonomyEnd with fade
+    show G4 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G4 with fade
 
     window show
     jump start

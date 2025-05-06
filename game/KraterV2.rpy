@@ -72,18 +72,25 @@ label negotiate_return:
             # co stwe ending
             narr "Italy agrees on a co-stewardship model, allowing the museum to retain the object while still respecting its origin."
             krater "I remain far from my homeland, but still under the influence of my people."
+                window hide
+                show G5 with fade
+                pause
+                scene black
+                hide G5 with fade
+                window show
 
         "Complete return of the object.":
             narr "After lengthy talks, the museum reaches an agreement with Italy. The krater will remain on view for a final exhibition before its return."
             narr "In exchange, Italy promises future loans of other masterpieces. The museum preserves its reputation, but loses a treasure."
             krater "After years abroad, I was finally returned to Italy, welcomed with reverence and sorrow for the journey I endured."
-    window hide
-    show AutonomyEnd with fade
-    pause
-    scene black
-    hide AutonomyEnd with fade
-    window show
+            window hide
+            show G6 with fade
+            pause
+            scene black
+            hide G6 with fade
+            window show
 
+    jump start
     return
 
 label refuse_return:
@@ -92,12 +99,13 @@ label refuse_return:
     narr "The museum refuses to return the Krater, citing good faith acquisition. Legal and diplomatic pressures mount. The krater becomes a symbol of contested heritage."
     krater "Throughout time, I was kept behind glass, far from the soil where I once belonged."
     window hide
-    show AutonomyEnd with fade
+    show G7 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G7 with fade
     window show
     
+    jump start
     return
 
 label public_pressure:
@@ -108,10 +116,11 @@ label public_pressure:
     krater "After years abroad, I was finally returned to Italy, welcomed with reverence and sorrow for the journey I endured."
 
     window hide
-    show AutonomyEnd with fade
+    show G8 with fade
     pause
     scene black
-    hide AutonomyEnd with fade
+    hide G8 with fade
     window show
-
+    
+    jump start
     return
