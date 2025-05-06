@@ -98,7 +98,11 @@ label outcomeLoan:
     crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
     narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
     return
-
+label outcomeLoan2:
+    # scene bg shared with fade
+    crown "I remain far from home, yet Ethiopian scholars now walk these halls, sharing stewardship of my legacy."
+    narr "Though imperfect, the loan symbolizes a step toward dialogue and shared guardianship."
+    return
 label outcomeDenied:
     # scene bg museum with fade
     crown "Here I remain, a silent witness to the passing of years."
@@ -118,5 +122,5 @@ label alternateEndings:
             "Offer a long-term loan.":
                 jump outcomeLoan  
             "Arrange a co-stewardship program.":
-                jump outcomeLoan
+                jump outcomeLoan2
         return

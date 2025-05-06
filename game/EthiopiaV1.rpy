@@ -19,10 +19,11 @@ label E_V1_Intro:
 
 #Consolidate?
 label consoldationV1:
-    scene bg 3 with fade
+    # CASTLE
+    scene CastleView with fade
     crown "I was born in 1740, commissioned by King Iyyasu II—golden, radiant, and adorned with the sacred images of the Apostles and Evangelists."
     crown "Bestowed as an imperial gift, I was meant to secure eternal prayers for the emperor's soul."
-    scene bg 4 with fade
+    scene MountainExpanse with fade
     crown "My early years were peaceful, resting in the sanctuary of the Church of Our Lady of Qwesqwam."
     
     narr "As you hold control of Ethiopia's power, you must make all executive decisions for the nation."
@@ -37,7 +38,8 @@ label consoldationV1:
 
 #try to be civil?
 label diplomacyV1:
-    scene bg 5 with fade
+    #MOUNTAIN
+    scene MountainView with fade
     crown "When Emperor Tewodros II sought to unite and strengthen the empire, I was carried to the mountain fortress of Maqdala, joining a treasury of Ethiopia's most cherished relics."
     crown "But my sanctuary became a battleground."
     narr "Tensions are rising with the arrival of European armies. What should be done?"
@@ -67,13 +69,12 @@ label tensionsV1:
 
 #negottation efforts fail, crown captured
 label badDiplomacyV1:
-    scene bg 6 with fade
+    scene CastleView with fade
     crown "As tensions escalated with the arrival of European armies, Maqdala fell."
 
     crown "I was seized alongside my companions, auctioned off as spoils to foreign hands."
-    scene bg 7 with fade
+    scene MuseumUK with fade
     crown "Shipped across continents, I found myself confined within the then South Kensington Museum, with the approval of the British Treasury."
-    #TODO: 
     narr "The crown is now outside of Ethiopian control. Should repatriation efforts be made?"
     menu:
         "Take efforts to negociate repatriation.":
@@ -94,6 +95,7 @@ label repatriationTry:
 
 label goodDiplomacyV1:
     # narr "The British work diplomatically with Ethiopia."
+    scene CastleView with fade
     crown "I survived the tense arrival of the Europeans, remaining in my homeland."
     narr "Preservation efforts have been made, however the crown and other artifacts are kept in poor conditions."
     narr "What should be done?"
@@ -114,7 +116,7 @@ label goodDiplomacyV1:
 
 
 label outcome1V1:
-    scene bg 2 with fade
+    scene crownV with fade
     define qualityRandomizer = 0
     $qualityRandomizer = random.randint(0,1)
     if(qualityRandomizer == 1):
@@ -125,18 +127,18 @@ label outcome1V1:
         jump start
     return
 label outcome2V1:
-    scene bg 2 with fade
+    scene crownV with fade
     crown "I remain in the hands of outsiders, protected from poor conditions, but still far from my home."
     jump start
     return
 label outcome3V1:
-    scene bg 2 with fade
+    scene crownV with fade
     crown "I was transfered to a museum in England, watching my people negociate my stewardship and protect my longjevity."
     crown "Although I am far from my homeland, some of my people come to England to guide my conservation and presentation to the public."
     jump start
     return
 label outcome4V1:
-    scene bg 2 with fade
+    scene crownV with fade
     crown "Here I remain, a silent witness to the passing of years, watching as my people's voices rise in hope and sorrow—calling for my return, while those who hold me show little urgency to let me go."
     jump start
     return
