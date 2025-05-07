@@ -114,6 +114,7 @@ label repatChanceKrater:
 label repatSuccessKrater:
     # TODO SHOW KRATER
     scene krater with fade
+#tested
 
     #repatriation sucess 
     krater "After years abroad, I was finally returned to Italy, welcomed with reverence and sorrow for the journey I endured."
@@ -131,7 +132,7 @@ label repatSuccessKrater:
 
 label repatFailKrater:
     scene krater with fade
-
+#tested
     #lost but not forgetton 
     krater "Throughout time, I was kept behind glass, far from the soil where I once belonged."
     krater "Whispers of my stolen past echo through the halls, as I remain a trophy rather than a tribute."
@@ -150,7 +151,8 @@ label repatFailKrater:
 
 label legalExcavation:
     scene krater with fade
-    #dignity ending
+    #dignity ending #tested
+
     krater "This time, my awakening was respectful. Hands trained in care unearthed me, documenting every fragment of my story."
     narrator "The Krater was displayed in a regional Italian museum, with full context of its history and cultural relevance."
     
