@@ -151,7 +151,7 @@ label conservation_not_sucess_bust:
 
 # ENDING ONE 
 label ArtifactLostBust:
-    scene Bust_NEF with fade
+    scene Bust_NEF with fade  #TESTED
     
     bust "Here I lay, burried under the sands of my people. My people are left unware of my presence and my history."
     bust "As I lie here for centuries to come, I can only hope that one day I will be discovered."
@@ -169,7 +169,7 @@ label ArtifactLostBust:
 #ENDING TWO 
 label Egypt_Autonomy_Ending:
     scene Bust_NEF with fade
-    # change the background TODO to object 
+    # change the background TODO to object  #TESTED
     bust "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
    
     window hide

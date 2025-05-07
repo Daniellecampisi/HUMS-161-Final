@@ -77,7 +77,7 @@ label Germany_Refuses_Return:
         "Maintain exclusive ownership.":
             jump Germany_Final_Ownership
 
-label Germany_Final_Ownership:
+label Germany_Final_Ownership: #TESTED
     scene Bust_NEF with fade    
     bust "Germany continues to deny repatriation claims. Despite international pressure, I remain here."
     bust "Yet I hear my people’s voices echo through halls far from their homeland."
