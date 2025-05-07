@@ -18,7 +18,7 @@ label backgroundKrater:
     scene ath1 with fade
 
         # TODO SHOW ATHENS 1
-    krater "I was born in Athens, serving as a centerpiece for cellebrations and gatherings. I was an essential part of my people's social life. "
+    krater "I was born in Athens, serving as a centerpiece for cellebrations and gatherings. I was an essential part of my people's social life."
     krater "I had been adorned with illustrations of Sarpedons death. My adornments were meant to inspire discussion of heroism and mortality. I was buried alongside a fellow Etruscan, in a tomb meant to resemble a home to provide comfort beyond death."
     narr "The Euphronios Krater is burried alongside other tombs on private land. Should more protection be added to the necropolis?"
     menu:
@@ -58,9 +58,9 @@ label looting:
     krater "I was then sold to an American dealer who moved to negotiations with the Metropolitan Museum of Art in New York. The representatives agreed to purchase me and move me into their provenance."
     narr "An article releases regarding the acquisition of the krater. The public are questioning it's acquisition. What should be done?"
     menu:
-        "Investigate the aquisition":
+        "Investigate the aquisition.":
             jump investigateV1
-        "Ignore the allegations":
+        "Ignore the allegations.":
             jump met
     return
 
@@ -82,9 +82,9 @@ label met:
     krater "I was kept at the Metropolitan Museum of Art, despite the suspicion on my providence."
     narr "What should be done regarding the krater's stewardship?"
     menu:
-        "Request repatriation":
+        "Request repatriation.":
             jump repatChanceKrater
-        "Leave the object in the United States":
+        "Leave the object in the United States.":
             jump repatFailKrater
 
 

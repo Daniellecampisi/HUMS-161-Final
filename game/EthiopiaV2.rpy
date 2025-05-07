@@ -6,9 +6,9 @@ label missionaries:
     narr "Now, a group seeks permission to travel to the distant highlands of Ethiopia-a proud, ancient Christian kingdom, yet one that has long resisted foreign intervention."
     narr "Should we allow a missionary group to travel to Ethiopia?"
     menu: 
-        "Yes, send a group of missionaries.":
+        "Yes; send a group of missionaries.":
             jump areimprisioned
-        "No do not send any missionaries":
+        "No; do not send any missionaries":
             jump imprisionedEurope
     return
 
@@ -35,7 +35,7 @@ label imprisioned:
     return
 label imprisionedEurope:
     scene MountainExpanse with fade
-    narr "The missionaries are refused approval, though other European powers make expeditions to Ethiopia"
+    narr "The missionaries are refused approval, though other European powers make expeditions to Ethiopia."
     narr "Emperor Tewodros II, imprisons the other European missionaries and diplomats."
     narr "News of their capture reaches London, sparking outrage in the press. What should be done regarding this?"
     menu:

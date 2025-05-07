@@ -32,7 +32,7 @@ label consoldationV1:
         "Consolodate the kingdom's power.":
             jump diplomacyV1
         "Keep the kingdom's riches dispersed.":
-            crown "As time passed I was able to survive lootings and warfare. "
+            crown "As time passed I was able to survive lootings and warfare."
             jump goodDiplomacyV1
     return
 
@@ -47,7 +47,7 @@ label diplomacyV1:
         "Attempt to reconcile tensions.":
             $ diplomacyAttempted = True
             jump tensionsV1
-        "Withdrawl diplomatic efforts.":
+        "Withdraw diplomatic efforts.":
             $ diplomacyAttempted = False
             jump tensionsV1
     return
