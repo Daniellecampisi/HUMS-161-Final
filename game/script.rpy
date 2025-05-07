@@ -164,8 +164,7 @@ label credits:
     GatherTales. “The Moche Lords of Sipán.” www.gathertales.com/.../sid-302. Accessed 7 May 2025.\n
     Madain Project. “Timeline of the Ishtar Gate.” madainproject.com/...ishtar_gate#google_vignette. Accessed 7 May 2025.\n
     Wizevich, Eli. “The Bust of Nefertiti.” Smithsonian Magazine, 6 Dec. 2024, www.smithsonianmag.com/...nefertiti-180985565/.
-    """ 
-    at truecenter
+    """ at truecenter
 
     with dissolve
 
