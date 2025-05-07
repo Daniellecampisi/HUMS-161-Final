@@ -9,7 +9,17 @@ label missionaries:
         "Yes; send a group of missionaries.":
             jump areimprisioned
         "No; do not send any missionaries":
-            jump imprisionedEurope
+            narr "Other Europeans engage tensely with Ethiopia. However, war is avoided through diplomacy."
+            scene crownV with fade
+            narr "Ethiopia is able to keep the Maqdala Crown in its stewardship. "
+            crown "I remain in my homeland, with my people. They expanded conservation efforts to protect me, as I bask in our country's greatness."
+            window hide
+            show NoLoot with fade
+            pause
+            scene black
+            hide NoLoot with fade
+            window show
+            jump start
     return
 
 label areimprisioned:
@@ -35,8 +45,7 @@ label imprisioned:
     return
 label imprisionedEurope:
     scene MountainExpanse with fade
-    narr "The missionaries are refused approval, though other European powers make expeditions to Ethiopia."
-    narr "Emperor Tewodros II, imprisons the other European missionaries and diplomats."
+    narr "Emperor Tewodros II, imprisons the European missionaries and diplomats."
     narr "News of their capture reaches London, sparking outrage in the press. What should be done regarding this?"
     menu:
         "Attempt to resolve tensions.":
@@ -46,10 +55,10 @@ label imprisionedEurope:
 label diplomacyAttemptedUK:
     define diplomacy = 0
     $prisionChance = random.randint(1,10)
-    if prisionChance >= 4:
-        jump diplomacySuccess
-    else:
-        jump diplomacyFail
+    # if prisionChance >= 4:
+    #     jump diplomacySuccess
+    # else:
+    jump diplomacyFail
     return
 label diplomacySuccess:
     scene CastleView with fade
