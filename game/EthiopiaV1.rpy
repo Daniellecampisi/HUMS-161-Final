@@ -29,7 +29,7 @@ label consoldationV1:
     narr "As you hold control of Ethiopia's power, you must make all executive decisions for the nation."
     narr "The kingdom's power and wealth is spread across its land. Should a consoldated treasury be constructed in the fortress of Maqdala?"
     menu:
-        "Consolodate the kingdom's power.":
+        "Consolidate the kingdom's power.":
             jump diplomacyV1
         "Keep the kingdom's riches dispersed.":
             crown "As time passed I was able to survive lootings and warfare."
@@ -77,7 +77,7 @@ label badDiplomacyV1:
     crown "Shipped across continents, I found myself confined within the then South Kensington Museum, with the approval of the British Treasury."
     narr "The crown is now outside of Ethiopian control. Should repatriation efforts be made?"
     menu:
-        "Take efforts to negociate repatriation.":
+        "Take efforts to negotiate repatriation.":
             jump repatriationTry 
         "Leave the crown in the England's stewardship.":
             jump outcome4V1
@@ -103,7 +103,7 @@ label goodDiplomacyV1:
         "Keep the artifacts in Ethiopia.":
             jump outcome1V1
         "Move the artifact elsewhere.":
-            narr "How should the crown's stwardship be structured?"
+            narr "How should the crown's stewardship be structured?"
             menu:
                 "A long-term loan of the crown to another musuem.":
                     jump outcome2V1
@@ -151,7 +151,7 @@ label outcome2V1:
     return
 label outcome3V1:
     scene crownV with fade
-    crown "I was transfered to a museum in England, watching my people negociate my stewardship and protect my longjevity."
+    crown "I was transfered to a museum in England, watching my people negotiate my stewardship and protect my longevity."
     crown "Although I am far from my homeland, some of my people come to England to guide my conservation and presentation to the public."
     
     window hide
