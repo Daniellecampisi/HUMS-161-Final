@@ -13,7 +13,7 @@ label Moche_Period:
 
 label Looting_Era:
     scene SiteP with fade
-    narr "in 1987 looters discover traces of gold in Huaca Rajada."
+    narr "In 1987 looters discover traces of gold in Huaca Rajada."
     narr "They begin to illegally dig and extract treasures under cover of night."
     menu:
         "Allow looting to continue unchecked.":

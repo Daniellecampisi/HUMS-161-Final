@@ -50,7 +50,7 @@ label imprisionedEurope:
     menu:
         "Attempt to resolve tensions.":
             jump diplomacyAttemptedUK
-        "Retaliate against the imprisionment.":
+        "Retaliate against the imprisonment.":
             jump militaryExpedition
 label diplomacyAttemptedUK:
     define diplomacy = 0
