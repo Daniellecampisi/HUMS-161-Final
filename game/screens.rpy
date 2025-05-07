@@ -298,9 +298,9 @@ screen navigation():
         if main_menu:
 
             textbutton _("Start") action Start()
-            textbutton "Credits" action Start("credits")
+            textbutton "Works Cited" action Start("credits")
         else:
-            textbutton "Credits" action Start("credits")
+            textbutton "Works Cited" action Start("credits")
             textbutton _("History") action ShowMenu("history")
 
             textbutton _("Save") action ShowMenu("save")
