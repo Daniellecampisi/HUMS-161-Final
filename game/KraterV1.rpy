@@ -58,7 +58,7 @@ label looting:
     krater "I was then sold to an American dealer who moved to negotiations with the Metropolitan Museum of Art in New York. The representatives agreed to purchase me and move me into their provenance."
     narr "An article releases regarding the acquisition of the krater. The public are questioning it's acquisition. What should be done?"
     menu:
-        "Investigate the aquisition.":
+        "Investigate the acquisition.":
             jump investigateV1
         "Ignore the allegations.":
             jump met
