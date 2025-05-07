@@ -67,7 +67,7 @@ label Attempt_to_Save_Akhetaten:
     if(chance_moved > 2): 
         scene pharoh with fade
         narr "His successors have quickly restored the old polytheistic religion centered on Amun and moved the capital back to Thebes."
-        narr "The worship of Aten was abandoned, and Akhetaten lost its religious and political significance"
+        narr "The worship of Aten was abandoned, and Akhetaten lost its religious and political significance."
         narr "Following the decline of Akhenaten’s reign and the abandonment of Amarna, the bust remained buried and forgotten in the ruins of Thutmose’s workshop for over 3,200 years."
         jump ANTIQUTIE_LAW
     else:
@@ -80,7 +80,7 @@ label ANTIQUTIE_LAW:
     scene city with fade
     narr "It is now the advent of the 20th century. The bust has stayed burried for many centuries."
     narr "Egypt is in contention over a new law to be passed."
-    narr "The Antiquities Law of 1912 plans to permit foreign missions to conduct scientific excavations in exchange for a system called \"partage.\""
+    narr "The Antiquities Law of 1912 plans to permit foreign missions to conduct scientific excavations in exchange for a system called partage."
     narr "Partrage would let all artifacts of cultural significance to stay in Egypt while allowing Europeans to excavate and explore Egypt's archient ruins."
     narr "What should be done?"
 
@@ -121,7 +121,7 @@ label Discoved_Bust_German:
                 narr "The investigation of the artifact suceeds and Egypt keeps the bust!"
                 narr "Preservation efforts have been attempted but are not sucessful."
                 jump Egypt_Miscare_Ending
-        "Allow German Aquisition":
+        "Allow German Aquisition.":
             jump InGermayBust
 
 
@@ -133,12 +133,12 @@ label InGermayBust:
     $chance_moved = random.randint(0,5)
     narr "Should Egypt attemt to negotiate with Germany?"
     menu:
-        "Negotiate":
+        "Negotiate.":
             if(chance_moved > 3):
                 jump conservation_not_sucess_bust
             else:
                 jump Germany_Final_Ownership
-        "Leave the bust in Germany":
+        "Leave the bust in Germany.":
                 jump Germany_Final_Ownership
 label conservation_not_sucess_bust:
     narr "How should Egypt attempt to regain ownership of the bust?"
