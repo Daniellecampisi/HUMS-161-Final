@@ -1,6 +1,6 @@
 label ISHTARV1:
     scene babylon with fade
-    narr "It is 1902. German archeologists, have begun excavating the ancient city of Babylon in Ottoman Iraq."
+    narr "It is 1902. German archaeologists, have begun excavating the ancient city of Babylon in Ottoman Iraq."
     narr "Soon, an extraordinary discovery emerges: fragments of a monumental gateway adorned with dragons and lions—the Ishtar Gate."
     narr "Koldewey proposes the gate be shipped to Berlin for reconstruction. Should the museum support the proposal?"
     menu:
