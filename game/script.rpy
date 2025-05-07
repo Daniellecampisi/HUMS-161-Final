@@ -141,3 +141,13 @@ label start:
     # jump E_V1_Intro
 
     return
+label credits:
+    scene black
+    with fade
+
+    show text "Game by Your Name\nMusic by Composer\nArt by Someone Else\n\nThanks for playing!" at truecenter
+    with dissolve
+
+    pause 6
+
+    return  # Returns to main menu
