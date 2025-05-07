@@ -150,4 +150,4 @@ label credits:
 
     pause 6
 
-    return  # Returns to main menu
+    # Returns to main menu
