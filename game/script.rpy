@@ -110,6 +110,8 @@ label start:
     # images directory to show it.
 
     scene bg start
+    
+
     # show aura
     # show crown
     # This shows a character sprite. A placeholder is used, but you can
@@ -119,6 +121,7 @@ label start:
 
     # These display lines of dialogue.
     if started == 0:
+        play music "music/finalmusic.mp3" fadein 1.0
         narr "Welcome to the Cultural Trafficking Digital Collection."
     
     $started = 1
