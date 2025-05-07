@@ -154,6 +154,9 @@ label credits:
     Desplat, Juliette. “The Nefertiti Affair.” The National Archives Blog, 16 Sept. 2016, blog.nationalarchives.gov.uk/nefertiti-affair-history-repatriation-debate/.\n
     “Euphronios (Sarpedon) Krater.” Trafficking Culture, traffickingculture.org/...krater/. Accessed 7 May 2025.\n
     British Museum. “From Chavin to the Inca.” www.britishmuseum.org/...timeline-central-andes-south-america. Accessed 7 May 2025.\n
+    """ at truecenter
+    pause
+    show text """
     Smarthistory. “From Tomb to Museum: The Story of the Sarpedon Krater.” smarthistory.org/euphronios-krater-2/. Accessed 7 May 2025.\n
     “Ishtar Gate.” Cultural Repatriation, repatriation-his111.weebly.com/ishtar-gate.html. Accessed 7 May 2025.\n
     “Loot from Maqdala.” Together We Learn, twlethiopia.org/article/maqdala-and-its-loot-a-brief-history/. Accessed 7 May 2025.\n
@@ -164,11 +167,10 @@ label credits:
     GatherTales. “The Moche Lords of Sipán.” www.gathertales.com/.../sid-302. Accessed 7 May 2025.\n
     Madain Project. “Timeline of the Ishtar Gate.” madainproject.com/...ishtar_gate#google_vignette. Accessed 7 May 2025.\n
     Wizevich, Eli. “The Bust of Nefertiti.” Smithsonian Magazine, 6 Dec. 2024, www.smithsonianmag.com/...nefertiti-180985565/.
-    """ 
-    at truecenter
+    """ at truecenter
 
     with dissolve
 
-    pause 6
+    pause 
 
     # Returns to main menu
