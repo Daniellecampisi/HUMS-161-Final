@@ -5,7 +5,7 @@ label German_Culture_Bust:
     narr "On December 6, 1912, the team, led by Ludwig Borchardt, makes a remarkable discovery..."
     bust "I was unearthed in Thutmose’s workshop, still bearing the vibrant colors of ancient Egypt."
     bust "My discovery was seen as an artistic marvel, and Borchardt knew the value I held."
-    
+    narr "The archaeological team wants to keep the bust in their archives. What should be done?"
     menu:
         "Accurately report the bust’s significance to the Egyptian Antiquities Authority.":
             jump Honest_Declaration
@@ -46,7 +46,7 @@ label Misrepresentation_Succeeds:
 
 label Bust_Sent_to_Germany:
     scene german_museum with fade
-    bust "I was quietly shipped to Germany in 1913, my value unnoticed by the Egyptians."
+    bust "I was quietly shipped to Germany in 1913, my value unnoticed by the Egyptian officials."
     narr "Years later, in 1924, I was displayed in Berlin to public acclaim."
     narr "Egypt, realizing the mistake, began a campaign for my return."
     
