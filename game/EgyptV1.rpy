@@ -42,7 +42,7 @@ label Attempt2moveBust:
         jump Egypt_Autonomy_Ending
     else:
         narr "Thutmose had no incentive to move the bust and continued to use it for his works."
-        narr "The Bust was unsuccessfully moved to another part of the city and remained in Thutmose’s workshop in Amarna"
+        narr "The Bust was unsuccessfully moved to another part of the city and remained in Thutmose’s workshop in Amarna."
         jump Abandonment_Akhetaten
 
 
